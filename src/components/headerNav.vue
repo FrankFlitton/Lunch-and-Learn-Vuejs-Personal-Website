@@ -9,11 +9,9 @@
         </nuxt-link>
         <v-spacer />
         <v-col align="right">
-          <v-btn @click="drawer = !drawer">
+          <v-btn color="light" fab elevation="0" @click="drawer = !drawer">
             <v-icon>mdi-menu</v-icon>
           </v-btn>
-
-          {{ drawer }}
         </v-col>
       </v-row>
     </v-container>

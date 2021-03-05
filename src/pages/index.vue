@@ -41,14 +41,7 @@ export default {
   },
   head() {
     return {
-      title: 'Developing Great Products',
-      meta: [
-        {
-          hid: 'og:image',
-          property: 'og:image',
-          content: this.page.featuredImage,
-        },
-      ],
+      title: 'Welcome to my site!',
     }
   },
 }

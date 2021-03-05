@@ -6,8 +6,8 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - Frank JE Flitton',
-    title: 'Developer and Designer',
+    titleTemplate: '%s - Personal Website',
+    title: 'Making great things',
     meta: [{
         charset: 'utf-8'
       },
@@ -18,7 +18,7 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: 'Frank is a Full Stack Software Engineer and Lead Designer specializing in software engineering, UX research, and product design. Available for freelance and other opportunities.'
+        content: 'A little bit about you that will show up in Google search results.'
       }
     ],
     link: [{

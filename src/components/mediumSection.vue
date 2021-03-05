@@ -22,7 +22,8 @@
       <v-col cols="12" md="8">
         <v-row>
           <v-col cols="12">
-            <a :href="post.url" class="black--text" target="_blank">
+            {{ post }}
+            <a :href="post.link" class="black--text" target="_blank">
               <h3 class="text-h4 mb-5">
                 {{ post.title }}
               </h3>

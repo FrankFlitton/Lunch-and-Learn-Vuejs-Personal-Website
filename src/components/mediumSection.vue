@@ -56,7 +56,7 @@ export default {
     const author = this.author
     try {
       const response = await axios(
-        `https://mediumpostsapi.herokuapp.com/?usermedium=${author}`
+        `https://mediumpostapi.herokuapp.com/?usermedium=${author}`
       )
       console.log(response)
       this.posts = response.data.dataMedium
